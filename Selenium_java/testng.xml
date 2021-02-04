@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG_Allure_Reports.TagConcepts"/>
+      <class name="testNG_Allure_Reports.MoveHover"/>
+      <class name="testNG_Allure_Reports.LunchBrowser"/>
+      <class name="testNG_Allure_Reports.Multiplication"/>
+      <class name="testNG_Allure_Reports.MultiSelection"/>
+      <class name="testNG_Allure_Reports.WindowsHandles"/>
+      <class name="testNG_Allure_Reports.HeadLessBrowserConcepts"/>
+      <class name="testNG_Allure_Reports.NewTours"/>
+      <class name="testNG_Allure_Reports.GoogleTest"/>
+      <class name="testNG_Allure_Reports.RightClickMe"/>
+      <class name="testNG_Allure_Reports.Frame"/>
+      <class name="testNG_Allure_Reports.VeryfiyFcaebook"/>
+      <class name="testNG_Allure_Reports.FlightBooking"/>
+      <class name="testNG_Allure_Reports.PhpTravals"/>
+      <class name="testNG_Allure_Reports.DragAndDrop"/>
+      <class name="testNG_Allure_Reports.Gmail_Login"/>
+      <class name="testNG_Allure_Reports.AllureReporting"/>
+      <class name="testNG_Allure_Reports.NavigationConcepts"/>
+      <class name="testNG_Allure_Reports.Facebook_Registartion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
