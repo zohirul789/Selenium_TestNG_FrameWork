@@ -7,25 +7,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.qa.multicart.basePage.BasePage;
+import com.qa.multicart.basePage.BaseTest;
 import com.qa.multicart.pageLayer.LoginPage;
 
-public class LoginPageTest extends BasePage {
-	// TestNG-- Unit Testing FrameWork use With java and Junit Also
-	// Preconditons .....TestCase(Step).......Assertion....Close Test
-	//@	BeforeTest.....@Test....Assertion....Close Browser
-	// Lunch Browser,....URL...Title......verify...Close Browser
-	
-	WebDriver driver;
-	BasePage basepage;
-	LoginPage loginpage;
-	
-	@BeforeTest
-	public void setUp() {
-		basepage = new BasePage();
-		driver = basepage.initialize_driver("firefox");
-		loginpage = new LoginPage(driver);	
-	}
-	
+public class LoginPageTest extends BaseTest {
+
 	@Test(priority=1)
 	public void verifySingUpLinks() {
 		boolean expected=loginpage.isSignUpButtonExist();
@@ -41,7 +27,7 @@ public class LoginPageTest extends BasePage {
 	
 	@Test(priority=3)
 	public void loginTest() {
-		loginpage.doLogin("zulfa013", "Zulfa_013");
+		loginpage.doLogin(propertie.getProperty("username"),propertie.getProperty("password"));
 	}
 	
 	@Test(priority=4)
@@ -49,9 +35,5 @@ public class LoginPageTest extends BasePage {
 		loginpage.doLogOut();
 	}
 	
-	@AfterTest
-	public void closeBrowser() {
-		driver.quit();
-	}
 
 }

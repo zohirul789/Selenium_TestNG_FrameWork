@@ -4,10 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.multicart.basePage.BasePage;
+import com.qa.multicart.utilites.ElementUtil;
 
 public class LoginPage extends BasePage {
 	
 	private WebDriver driver;
+	private ElementUtil elementutil;
 	
 	// By Locator
 	
@@ -23,13 +25,15 @@ public class LoginPage extends BasePage {
 	
 	public LoginPage(WebDriver driver) {
 		this.driver=driver;
+		elementutil = new ElementUtil(this.driver);
 	}
 	// Page Action
 	
 	public String getLoginPageTitle() {
 		
-		String title=driver.getTitle();
-		return title;
+/*		String title=driver.getTitle();
+		return title;*/
+		return elementutil.getPageTitle("WildFire Cart", 5);
 		
 	}
 	
@@ -37,7 +41,9 @@ public class LoginPage extends BasePage {
 		driver.findElement(login).click();
 		boolean status=driver.findElement(signUP).isDisplayed();
 		return status;
-		
+/*		elementutil.waitForElementToBeClickable(login, 5);
+		return elementutil.waitForElementToBeVisible(signUP, 5);
+		*/
 	}
 	
 	public void doLogin(String UserName, String PasWord) {
