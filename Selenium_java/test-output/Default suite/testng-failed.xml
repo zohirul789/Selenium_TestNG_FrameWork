@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_Allure_Reports.Gmail_Login">
+      <class name="allytest.AmazonAllyTest">
         <methods>
-          <include name="gLogin"/>
+          <include name="test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testNG_Allure_Reports.Gmail_Login -->
+      </class> <!-- allytest.AmazonAllyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
