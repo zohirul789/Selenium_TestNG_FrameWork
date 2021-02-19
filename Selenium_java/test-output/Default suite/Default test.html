@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 04 01:51:20 EST 2021</td>
+<td>Started on:</td><td>Fri Feb 19 02:52:39 EST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8092 ms)</td>
+<tr><td>Total time:</td><td>24 seconds (24899 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,18 +67,531 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNG_Allure_Reports.HeadLessBrowserConcepts.headlessrowserTest()'><b>headlessrowserTest</b><br>Test class: testNG_Allure_Reports.HeadLessBrowserConcepts</td>
-<td></td>
-<td>7</td>
-<td>testNG_Allure_Reports.HeadLessBrowserConcepts@4386f16</td></tr>
+<td title='allytest.AmazonAllyTest.test()'><b>test</b><br>Test class: allytest.AmazonAllyTest</td>
+<td><div><pre>java.lang.AssertionError: Found 6 accessibility violations:
+1) ARIA hidden element must not contain focusable elements: https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI
+  a) [&quot;.a-carousel-card[aria-setsize=\&quot;\\37 \&quot;][aria-posinset=\&quot;\\33 \&quot;]&quot;]
+    Fix all of the following:
+      Focusable content should have tabindex=&apos;-1&apos; or be removed from the DOM
+
+
+2) Alternative text of images should not be repeated as text: https://dequeuniversity.com/rules/axe/3.5/image-redundant-alt?application=axeAPI
+  a) [&quot;img[alt=\&quot;Buy\\ Black\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  b) [&quot;img[alt=\&quot;TV\\ \\&amp;\\ Film\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  c) [&quot;img[alt=\&quot;Books\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  d) [&quot;img[alt=\&quot;Music\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  e) [&quot;img[alt=\&quot;Ring\\ Video\\ Doorbell\\ Pro\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  f) [&quot;img[alt=\&quot;Echo\\ Auto\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  g) [&quot;img[alt=\&quot;Kindle\\ Paperwhite\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  h) [&quot;img[alt=\&quot;Ring\\ Stick\\ Up\\ Cam\\ Wired\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  i) [&quot;img[alt=\&quot;Video\\ Doorbell\\ 3\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  j) [&quot;img[alt=\&quot;Blink\\ Mini\\ Cam\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  k) [&quot;img[alt=\&quot;Blink\\ Outdoor\\ Cam\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  l) [&quot;img[alt=\&quot;eero\\ mesh\\ wifi\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  m) [&quot;img[alt=\&quot;Necklaces\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  n) [&quot;img[alt=\&quot;Bracelets\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  o) [&quot;img[alt=\&quot;Rings\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  p) [&quot;img[alt=\&quot;Earrings\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  q) [&quot;img[alt=\&quot;Ring\\ Spotlight\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  r) [&quot;img[alt=\&quot;Solar\\ Floodlight\\ \\+\\ Bridge\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  s) [&quot;img[alt=\&quot;Ring\\ Steplight\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  t) [&quot;img[alt=\&quot;Ring\\ Smart\\ Bulb\\ kit\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  u) [&quot;img[alt=\&quot;For\\ adults\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  v) [&quot;img[alt=\&quot;For\\ babies\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  w) [&quot;img[alt=\&quot;For\\ kids\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  x) [&quot;img[alt=\&quot;For\\ teens\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  y) [&quot;img[alt=\&quot;Table\\ lamps\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  z) [&quot;img[alt=\&quot;Beds\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  aa) [&quot;img[alt=\&quot;Coffee\\ tables\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ab) [&quot;img[alt=\&quot;Sofas\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ac) [&quot;img[alt=\&quot;Amazon\\ Smart\\ Plug\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ad) [&quot;img[alt=\&quot;Sengled\\ Smart\\ Bulb\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ae) [&quot;img[alt=\&quot;Toshiba\\ Smart\\ Air\\ Purifier\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  af) [&quot;img[alt=\&quot;Wyze\\ Smart\\ Lock\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+3) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.5/label-title-only?application=axeAPI
+  a) [&quot;#searchDropdownBox&quot;]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+4) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.5/link-name?application=axeAPI
+  a) [&quot;a[href$=\&quot;ref\\=footer_logo\&quot;]&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+5) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.5/page-has-heading-one?application=axeAPI
+  a) [&quot;html&quot;]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [&quot;#skiplink&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [&quot;#navBackToTop&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) [&quot;.navFooterVerticalColumn&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) [&quot;#icp-touch-link-language &gt; .icp-color-base&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [&quot;#icp-touch-link-country &gt; .icp-color-base&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) [&quot;.navFooterCopyright&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at allytest.AmazonAllyTest.test(AmazonAllyTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace461516748", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace461516748'><pre>java.lang.AssertionError: Found 6 accessibility violations:
+1) ARIA hidden element must not contain focusable elements: https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI
+  a) [&quot;.a-carousel-card[aria-setsize=\&quot;\\37 \&quot;][aria-posinset=\&quot;\\33 \&quot;]&quot;]
+    Fix all of the following:
+      Focusable content should have tabindex=&apos;-1&apos; or be removed from the DOM
+
+
+2) Alternative text of images should not be repeated as text: https://dequeuniversity.com/rules/axe/3.5/image-redundant-alt?application=axeAPI
+  a) [&quot;img[alt=\&quot;Buy\\ Black\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  b) [&quot;img[alt=\&quot;TV\\ \\&amp;\\ Film\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  c) [&quot;img[alt=\&quot;Books\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  d) [&quot;img[alt=\&quot;Music\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  e) [&quot;img[alt=\&quot;Ring\\ Video\\ Doorbell\\ Pro\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  f) [&quot;img[alt=\&quot;Echo\\ Auto\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  g) [&quot;img[alt=\&quot;Kindle\\ Paperwhite\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  h) [&quot;img[alt=\&quot;Ring\\ Stick\\ Up\\ Cam\\ Wired\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  i) [&quot;img[alt=\&quot;Video\\ Doorbell\\ 3\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  j) [&quot;img[alt=\&quot;Blink\\ Mini\\ Cam\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  k) [&quot;img[alt=\&quot;Blink\\ Outdoor\\ Cam\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  l) [&quot;img[alt=\&quot;eero\\ mesh\\ wifi\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  m) [&quot;img[alt=\&quot;Necklaces\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  n) [&quot;img[alt=\&quot;Bracelets\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  o) [&quot;img[alt=\&quot;Rings\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  p) [&quot;img[alt=\&quot;Earrings\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  q) [&quot;img[alt=\&quot;Ring\\ Spotlight\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  r) [&quot;img[alt=\&quot;Solar\\ Floodlight\\ \\+\\ Bridge\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  s) [&quot;img[alt=\&quot;Ring\\ Steplight\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  t) [&quot;img[alt=\&quot;Ring\\ Smart\\ Bulb\\ kit\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  u) [&quot;img[alt=\&quot;For\\ adults\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  v) [&quot;img[alt=\&quot;For\\ babies\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  w) [&quot;img[alt=\&quot;For\\ kids\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  x) [&quot;img[alt=\&quot;For\\ teens\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  y) [&quot;img[alt=\&quot;Table\\ lamps\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  z) [&quot;img[alt=\&quot;Beds\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  aa) [&quot;img[alt=\&quot;Coffee\\ tables\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ab) [&quot;img[alt=\&quot;Sofas\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ac) [&quot;img[alt=\&quot;Amazon\\ Smart\\ Plug\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ad) [&quot;img[alt=\&quot;Sengled\\ Smart\\ Bulb\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  ae) [&quot;img[alt=\&quot;Toshiba\\ Smart\\ Air\\ Purifier\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+  af) [&quot;img[alt=\&quot;Wyze\\ Smart\\ Lock\&quot;]&quot;]
+    Fix all of the following:
+      Element contains &lt;img&gt; element with alt text that duplicates existing text
+
+
+3) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.5/label-title-only?application=axeAPI
+  a) [&quot;#searchDropdownBox&quot;]
+    Fix all of the following:
+      Only title used to generate label for form element
+
+
+4) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.5/link-name?application=axeAPI
+  a) [&quot;a[href$=\&quot;ref\\=footer_logo\&quot;]&quot;]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
+      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
+
+
+5) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.5/page-has-heading-one?application=axeAPI
+  a) [&quot;html&quot;]
+    Fix all of the following:
+      Page must have a level-one heading
+
+
+6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
+  a) [&quot;#skiplink&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  b) [&quot;#navBackToTop&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  c) [&quot;.navFooterVerticalColumn&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  d) [&quot;#icp-touch-link-language &gt; .icp-color-base&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  e) [&quot;#icp-touch-link-country &gt; .icp-color-base&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+  f) [&quot;.navFooterCopyright&quot;]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at allytest.AmazonAllyTest.test(AmazonAllyTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>allytest.AmazonAllyTest@6af93788</td></tr>
 </table><p>
 </body>
 </html>
