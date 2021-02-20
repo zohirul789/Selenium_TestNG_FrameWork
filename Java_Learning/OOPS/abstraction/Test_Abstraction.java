@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 public class Test_Abstraction {
 
-	//public static void main(String[] args) 
 	@Test
 	public void test(){
 		MobileUser mu;
@@ -12,11 +11,13 @@ public class Test_Abstraction {
 		mu.sendMessege();
 		mu.recived();
 		mu.call();
+		mu.end();
 		
 		mu = new Kamrul();
 		mu.sendMessege();
 		mu.recived();
 		mu.call();
+		mu.end();
 
 	}
 

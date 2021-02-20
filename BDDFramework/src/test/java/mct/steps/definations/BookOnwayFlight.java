@@ -1,11 +1,11 @@
 package mct.steps.definations;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class BookOnwayFlight extends Utility {
-	WebDriver driver;
+	public WebDriver driver;
 	
 	@Given("Open the Browser and navigate to App")
 	public void open_the_browser_and_navigate_to_app() throws InterruptedException {
@@ -29,15 +29,11 @@ public class BookOnwayFlight extends Utility {
 	@When("Click on flight")
 	public void click_on_flight() throws InterruptedException {
 	   driver.findElement(By.xpath("//a[contains(text(),'Flights')]")).click();
-	   Thread.sleep(5000);
-
-		
 
 	}
 
 	@Then("Provide the information")
 	public void provide_the_information() throws InterruptedException {
-		
 		
 		By type = By.xpath("//input[@value='oneway']");
 		By passenger = By.xpath("//select[@name='passCount']");
@@ -49,7 +45,7 @@ public class BookOnwayFlight extends Utility {
 		By arline = By.xpath("//select[@name='airline']");
 		
 		
-		Thread.sleep(2000);
+		
 		doClick(type);
 		selectValue(passenger,"2");
 		selectValue(departingFrom,"New York");

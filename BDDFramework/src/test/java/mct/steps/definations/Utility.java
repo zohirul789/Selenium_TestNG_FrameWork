@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class Utility {
-	 WebDriver driver;
+	public WebDriver driver;
 	
 	public  WebElement getElement(By locator) {
 		WebElement element = driver.findElement(locator);

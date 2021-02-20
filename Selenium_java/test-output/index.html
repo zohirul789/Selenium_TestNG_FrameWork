@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\zohir\AppData\Local\Temp\testng-eclipse-1787371771\testng-customsuite.xml</span>
+                    <span>C:\Users\zohir\AppData\Local\Temp\testng-eclipse--1812508609\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="allytest.AmazonAllyTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG_Allure_Reports.FlightBooking" hash-for-method="bookOneWayTicket">bookOneWayTicket</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,283 +119,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">allytest.AmazonAllyTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">testNG_Allure_Reports.FlightBooking</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
-                  <div class="stack-trace">java.lang.AssertionError: Found 6 accessibility violations:
-1) ARIA hidden element must not contain focusable elements: https://dequeuniversity.com/rules/axe/3.5/aria-hidden-focus?application=axeAPI
-  a) [&quot;.a-carousel-card[aria-setsize=\&quot;\\37 \&quot;][aria-posinset=\&quot;\\33 \&quot;]&quot;]
-    Fix all of the following:
-      Focusable content should have tabindex=&apos;-1&apos; or be removed from the DOM
-
-
-2) Alternative text of images should not be repeated as text: https://dequeuniversity.com/rules/axe/3.5/image-redundant-alt?application=axeAPI
-  a) [&quot;img[alt=\&quot;Buy\\ Black\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  b) [&quot;img[alt=\&quot;TV\\ \\&amp;\\ Film\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  c) [&quot;img[alt=\&quot;Books\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  d) [&quot;img[alt=\&quot;Music\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  e) [&quot;img[alt=\&quot;Ring\\ Video\\ Doorbell\\ Pro\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  f) [&quot;img[alt=\&quot;Echo\\ Auto\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  g) [&quot;img[alt=\&quot;Kindle\\ Paperwhite\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  h) [&quot;img[alt=\&quot;Ring\\ Stick\\ Up\\ Cam\\ Wired\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  i) [&quot;img[alt=\&quot;Video\\ Doorbell\\ 3\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  j) [&quot;img[alt=\&quot;Blink\\ Mini\\ Cam\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  k) [&quot;img[alt=\&quot;Blink\\ Outdoor\\ Cam\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  l) [&quot;img[alt=\&quot;eero\\ mesh\\ wifi\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  m) [&quot;img[alt=\&quot;Necklaces\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  n) [&quot;img[alt=\&quot;Bracelets\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  o) [&quot;img[alt=\&quot;Rings\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  p) [&quot;img[alt=\&quot;Earrings\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  q) [&quot;img[alt=\&quot;Ring\\ Spotlight\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  r) [&quot;img[alt=\&quot;Solar\\ Floodlight\\ \\+\\ Bridge\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  s) [&quot;img[alt=\&quot;Ring\\ Steplight\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  t) [&quot;img[alt=\&quot;Ring\\ Smart\\ Bulb\\ kit\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  u) [&quot;img[alt=\&quot;For\\ adults\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  v) [&quot;img[alt=\&quot;For\\ babies\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  w) [&quot;img[alt=\&quot;For\\ kids\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  x) [&quot;img[alt=\&quot;For\\ teens\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  y) [&quot;img[alt=\&quot;Table\\ lamps\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  z) [&quot;img[alt=\&quot;Beds\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  aa) [&quot;img[alt=\&quot;Coffee\\ tables\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  ab) [&quot;img[alt=\&quot;Sofas\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  ac) [&quot;img[alt=\&quot;Amazon\\ Smart\\ Plug\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  ad) [&quot;img[alt=\&quot;Sengled\\ Smart\\ Bulb\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  ae) [&quot;img[alt=\&quot;Toshiba\\ Smart\\ Air\\ Purifier\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-  af) [&quot;img[alt=\&quot;Wyze\\ Smart\\ Lock\&quot;]&quot;]
-    Fix all of the following:
-      Element contains &lt;img&gt; element with alt text that duplicates existing text
-
-
-3) Form elements should have a visible label: https://dequeuniversity.com/rules/axe/3.5/label-title-only?application=axeAPI
-  a) [&quot;#searchDropdownBox&quot;]
-    Fix all of the following:
-      Only title used to generate label for form element
-
-
-4) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.5/link-name?application=axeAPI
-  a) [&quot;a[href$=\&quot;ref\\=footer_logo\&quot;]&quot;]
-    Fix all of the following:
-      Element is in tab order and does not have accessible text
-
-    Fix any of the following:
-      Element does not have text that is visible to screen readers
-      aria-label attribute does not exist or is empty
-      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-      Element&apos;s default semantics were not overridden with role=&quot;presentation&quot;
-      Element&apos;s default semantics were not overridden with role=&quot;none&quot;
-
-
-5) Page must contain a level-one heading: https://dequeuniversity.com/rules/axe/3.5/page-has-heading-one?application=axeAPI
-  a) [&quot;html&quot;]
-    Fix all of the following:
-      Page must have a level-one heading
-
-
-6) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.5/region?application=axeAPI
-  a) [&quot;#skiplink&quot;]
-    Fix any of the following:
-      Some page content is not contained by landmarks
-
-
-  b) [&quot;#navBackToTop&quot;]
-    Fix any of the following:
-      Some page content is not contained by landmarks
-
-
-  c) [&quot;.navFooterVerticalColumn&quot;]
-    Fix any of the following:
-      Some page content is not contained by landmarks
-
-
-  d) [&quot;#icp-touch-link-language &gt; .icp-color-base&quot;]
-    Fix any of the following:
-      Some page content is not contained by landmarks
-
-
-  e) [&quot;#icp-touch-link-country &gt; .icp-color-base&quot;]
-    Fix any of the following:
-      Some page content is not contained by landmarks
-
-
-  f) [&quot;.navFooterCopyright&quot;]
-    Fix any of the following:
-      Some page content is not contained by landmarks
-
- expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at allytest.AmazonAllyTest.test(AmazonAllyTest.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
+                  <a name="bookOneWayTicket">
+                  </a> <!-- bookOneWayTicket -->
+                  <span class="method-name">bookOneWayTicket</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\zohir\AppData\Local\Temp\testng-eclipse-1787371771\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\zohir\AppData\Local\Temp\testng-eclipse--1812508609\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -404,7 +146,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;allytest.AmazonAllyTest&quot;/&gt;
+      &lt;class name=&quot;testNG_Allure_Reports.FlightBooking&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -446,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'allytest.AmazonAllyTest')
-data.setCell(0, 3, 10320);
+data.setCell(0, 1, 'bookOneWayTicket')
+data.setCell(0, 2, 'testNG_Allure_Reports.FlightBooking')
+data.setCell(0, 3, 12421);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -479,21 +221,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">allytest.AmazonAllyTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">testNG_Allure_Reports.FlightBooking</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test</span>
-                <span class="method-start">13132 ms</span>
+                <span class="method-name">bookOneWayTicket</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">23520 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

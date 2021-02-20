@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="68" started-at="2021-01-22T08:40:54 EST" finished-at="2021-01-22T08:40:54 EST">
+  <suite name="Default suite" duration-ms="65" started-at="2021-02-20T02:33:57 EST" finished-at="2021-02-20T02:33:57 EST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="68" started-at="2021-01-22T08:40:54 EST" finished-at="2021-01-22T08:40:54 EST">
+    <test name="Default test" duration-ms="65" started-at="2021-02-20T02:33:57 EST" finished-at="2021-02-20T02:33:57 EST">
       <class name="abstraction.Test_Abstraction">
-        <test-method status="PASS" signature="test()[pri:0, instance:abstraction.Test_Abstraction@7791a895]" name="test" duration-ms="28" started-at="2021-01-22T08:40:54 EST" finished-at="2021-01-22T08:40:54 EST">
+        <test-method status="PASS" signature="test()[pri:0, instance:abstraction.Test_Abstraction@7791a895]" name="test" duration-ms="18" started-at="2021-02-20T02:33:57 EST" finished-at="2021-02-20T02:33:57 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- abstraction.Test_Abstraction -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

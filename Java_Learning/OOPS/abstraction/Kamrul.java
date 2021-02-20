@@ -24,4 +24,10 @@ public class Kamrul extends MobileUser {
 		
 	}
 
+	@Override
+	void end() {
+		System.out.println(Reply+"Can i call u later");
+		
+	}
+
 }

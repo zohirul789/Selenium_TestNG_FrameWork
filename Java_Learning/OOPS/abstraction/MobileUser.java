@@ -5,5 +5,6 @@ public abstract class MobileUser {
 	abstract void sendMessege();
 	abstract void recived();
 	abstract void call();
+	abstract void end();
 
 }

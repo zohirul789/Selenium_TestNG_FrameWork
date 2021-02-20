@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,9 @@ public class FlightBooking {
 	public void bookOneWayTicket() throws InterruptedException {
 		
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		ChromeOptions co = new ChromeOptions();
+		co.addArguments("--headless");
+		driver = new ChromeDriver(co);
 		driver.get("http://demo.guru99.com/test/newtours/");
 		driver.manage().window().maximize();
 		

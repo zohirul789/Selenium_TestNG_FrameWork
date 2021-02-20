@@ -24,6 +24,12 @@ public class Jobrul extends MobileUser {
 		System.out.println("\n");
 		
 	}
+
+	@Override
+	void end() {
+		System.out.println(Reply+"Can i call you later");
+		
+	}
 	
 
 }
