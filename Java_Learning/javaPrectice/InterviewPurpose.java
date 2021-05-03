@@ -19,7 +19,7 @@ public class InterviewPurpose {
 			System.out.println("\t");
 			
 			for(int j = 1;j<=10;j++) {
-				//System.out.println("\t");
+				System.out.println("\b");
 				System.out.println(i+"*"+j+"="+i*j+"\t");
 								
 				

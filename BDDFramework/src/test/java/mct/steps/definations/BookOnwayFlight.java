@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class BookOnwayFlight extends Utility {
-	public WebDriver driver;
+	 WebDriver driver;
 	
 	@Given("Open the Browser and navigate to App")
 	public void open_the_browser_and_navigate_to_app() throws InterruptedException {
